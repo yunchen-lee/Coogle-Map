@@ -1,0 +1,12 @@
+{
+  "name": "pigeon-map",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node --env-file=.env tools/build-points.mjs"
+  },
+  "dependencies": {
+    "@mapbox/vector-tile": "^2.0.3",
+    "pbf": "^4.0.1"
+  }
+}

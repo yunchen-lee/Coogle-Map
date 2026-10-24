@@ -1,0 +1,8 @@
+.env
+node_modules/
+
+# 不上傳
+todo.md
+PRESENTATION-TRANSCRIPT.md
+test.png
+test.json

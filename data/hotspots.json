@@ -1,0 +1,22 @@
+[
+    { "rank": 1, "name": "The Met", "lon": -73.962882, "lat": 40.777965, "count": 857, "color": "#DC3721", "description": "Manhattan's #1 complaint spot · 857 complaints" },
+    { "rank": 2, "name": "East River Park", "lon": -73.974449, "lat": 40.720972, "count": 111, "color": "#5D7329", "description": "Best flying spot over the river · 111 complaints" },
+    { "rank": 3, "name": "East 78th Street", "lon": -73.954874, "lat": 40.772537, "count": 68, "color": "#DEA139", "description": "A famously grumpy old man lives here · 68 complaints" },
+    { "rank": 4, "name": "West 88th Street", "lon": -73.969110, "lat": 40.787463, "count": 56, "color": "#DEA139", "description": "Perfect windowsill views · 56 complaints" },
+    { "rank": 5, "name": "East 3rd Street", "lon": -73.988685, "lat": 40.725043, "count": 42, "color": "#DEA139", "description": "The most relaxing place to poop · 42 complaints" },
+    { "rank": 6, "name": "West 73rd Street", "lon": -73.979787, "lat": 40.777965, "count": 30, "color": "#DEA139", "description": "Hottest free food giveaway · 30 complaints" },
+    { "rank": 7, "name": "West 86th Street", "lon": -73.970890, "lat": 40.786106, "count": 30, "color": "#DEA139", "description": "Prime ledge real estate · 30 complaints" },
+    { "rank": 8, "name": "West 124th Street", "lon": -73.947756, "lat": 40.807818, "count": 30, "color": "#5D7329", "description": "An oasis in the city · 30 complaints" },
+    { "rank": 9, "name": "Queensboro Bridge", "lon": -73.961992, "lat": 40.760324, "count": 28, "color": "#7A5431", "description": "Best flying spot in Manhattan · 28 complaints" },
+    { "rank": 10, "name": "Carl Schurz Park", "lon": -73.947756, "lat": 40.773894, "count": 28, "color": "#5D7329", "description": "Best playground with squirrels and rats · 28 complaints" },
+    { "rank": 11, "name": "Seward Park", "lon": -73.985126, "lat": 40.716901, "count": 27, "color": "#5D7329", "description": "Daily playdates with squirrels and rats · 27 complaints" },
+    { "rank": 12, "name": "West 189th Street", "lon": -73.929962, "lat": 40.853955, "count": 27, "color": "#DEA139", "description": "A very particular old man lives here · 27 complaints" },
+    { "rank": 13, "name": "La Perla Garden", "lon": -73.963772, "lat": 40.798319, "count": 25, "color": "#5D7329", "description": "An oasis in the city · 25 complaints" },
+    { "rank": 14, "name": "Riverside Park", "lon": -73.976228, "lat": 40.791534, "count": 23, "color": "#5D7329", "description": "Best flying spot along the Hudson · 23 complaints" },
+    { "rank": 15, "name": "Broadway & 97th", "lon": -73.970890, "lat": 40.795605, "count": 22, "color": "#DEA139", "description": "Hottest free food giveaway · 22 complaints" },
+    { "rank": 16, "name": "East 80th Street", "lon": -73.953095, "lat": 40.773894, "count": 20, "color": "#DEA139", "description": "A relaxing poop with a view · 20 complaints" },
+    { "rank": 17, "name": "Tompkins Square Park", "lon": -73.981567, "lat": 40.727756, "count": 19, "color": "#5D7329", "description": "Best playground with squirrels and rats · 19 complaints" },
+    { "rank": 18, "name": "Broadway & 70th", "lon": -73.981567, "lat": 40.776608, "count": 19, "color": "#DEA139", "description": "Perfect windowsill views · 19 complaints" },
+    { "rank": 19, "name": "East 77th Street", "lon": -73.956654, "lat": 40.772537, "count": 19, "color": "#DEA139", "description": "A grumpy old man guards this block · 19 complaints" },
+    { "rank": 20, "name": "Ruppert Park", "lon": -73.947756, "lat": 40.780678, "count": 19, "color": "#5D7329", "description": "An oasis in the city · 19 complaints" }
+]

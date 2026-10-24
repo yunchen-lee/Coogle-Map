@@ -1,0 +1,17 @@
+cells: 989  (grid 150 m, search radius 100 m, park radius 200 m)
+complaints: 4772  per cell: median 2, max 756
+cells with 1-2 / 3-10 / 11-50 / 50+ complaints: 534 / 386 / 64 / 5
+comments to generate: 3630
+
+cells that have at least one ...
+  restaurant                     801  (81.0%)
+  litter basket                  904  (91.4%)
+  building (PLUTO)               977  (98.8%)
+  historic district              302  (30.5%)
+  landmark                       308  (31.1%)
+  park within 200 m              736  (74.4%)
+  bench (OSM)                    230  (23.3%)
+  cafe / bakery / deli (OSM)     448  (45.3%)
+  named place (CommonPlace)      831  (84.0%)
+
+features with coordinates per cell: median 8, min 1, cells with 0: 0

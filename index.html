@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coogle Maps</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 class="title">Coogle Maps</h1>
+    <button class="info-btn" id="info-btn" aria-label="About this map">i</button>
+    <div class="info-overlay" id="info-overlay">
+        <div class="info-box" role="dialog" aria-labelledby="info-title">
+            <button class="info-close" id="info-close" aria-label="Close">×</button>
+            <h2 id="info-title">About Coogle Maps</h2>
+            <p>A map of Manhattan from the pigeons' point of view. Every 311 complaint humans filed about pigeons becomes a pigeon review of that place.</p>
+            <p class="info-note">Complaint counts are real. Pigeons on screen are stand-ins, not real birds. Reviews are written by AI from real data about each place. 311 shows where people call 311, not exactly where pigeons live.</p>
+
+            <h3>Complaints</h3>
+            <table>
+                <tr><td>311 pigeon complaints in Manhattan</td><td>4,772</td></tr>
+                <tr><td>Pigeon waste</td><td>4,374</td></tr>
+                <tr><td>Pigeon odor</td><td>398</td></tr>
+                <tr><td>Places complained about</td><td>2,161</td></tr>
+                <tr><td>Places complained about only once</td><td>1,509</td></tr>
+                <tr><td>Most complaints at one place (The Met)</td><td>747</td></tr>
+                <tr><td>Time span</td><td>2010 – 2026</td></tr>
+            </table>
+
+            <h3>Data sources</h3>
+            <table>
+                <tr><td>311 complaints, NYC Open Data</td><td>4,772</td></tr>
+                <tr><td>Restaurant inspections, NYC Open Data</td><td>12,270</td></tr>
+                <tr><td>Litter baskets, NYC Open Data</td><td>8,091</td></tr>
+                <tr><td>Buildings (PLUTO), NYC Open Data</td><td>40,050</td></tr>
+                <tr><td>Parks, NYC Open Data</td><td>396</td></tr>
+                <tr><td>Public places (CommonPlace), NYC Open Data</td><td>5,830</td></tr>
+                <tr><td>Cafés, benches, fountains, OpenStreetMap</td><td>~39,500</td></tr>
+                <tr><td>Map tiles, Mapbox Streets</td><td>139</td></tr>
+            </table>
+
+            <h3>Reviews</h3>
+            <table>
+                <tr><td>Places on the map (150 m grid)</td><td>989</td></tr>
+                <tr><td>Nearby places given to the AI</td><td>7,642</td></tr>
+                <tr><td>Reviews written (GPT-5)</td><td>3,630</td></tr>
+                <tr><td>Pigeon personalities</td><td>74</td></tr>
+                <tr><td>Nearby places mentioned in reviews</td><td>2,561</td></tr>
+                <tr><td>Pigeons across Manhattan</td><td>3,535</td></tr>
+            </table>
+
+            <h3>Map</h3>
+            <table>
+                <tr><td>Points in the point cloud</td><td>261,088</td></tr>
+                <tr><td>Complaint hotspots</td><td>20</td></tr>
+                <tr><td>Landmarks</td><td>23</td></tr>
+                <tr><td>Pigeon sound layers</td><td>6</td></tr>
+            </table>
+
+            <p class="info-credits">Map data © Mapbox © OpenStreetMap contributors. City data from NYC Open Data.</p>
+        </div>
+    </div>
+    <canvas id="c"></canvas>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
